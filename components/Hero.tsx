@@ -14,9 +14,6 @@ const Hero = () => {
           현대적 남성 미학의 <br />새로운 기준을 제시합니다.
         </h1>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button className="px-10 py-4 bg-black text-white text-[10px] font-bold tracking-[0.2em] hover:bg-zinc-800 transition-colors">
-            지금 쇼핑하기
-          </button>
           <button className="px-10 py-4 bg-white text-black border border-black text-[10px] font-bold tracking-[0.2em] hover:bg-zinc-50 transition-colors">
             브랜드 스토리
           </button>

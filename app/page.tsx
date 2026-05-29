@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import ProductGrid from "@/components/ProductGrid";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 
@@ -22,8 +21,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-
-      <ProductGrid />
 
       {/* Editorial Section: HOW TO BE A MAN */}
       <section className="py-32 px-6 bg-zinc-950 text-white">
@@ -77,20 +74,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Global Shipping Promo */}
-      <section className="py-24 px-6 text-center bg-white">
-        <div className="max-w-xl mx-auto border border-zinc-100 p-12">
-          <svg className="mx-auto mb-8 text-zinc-300" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" x2="22" y1="12" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          <h3 className="text-lg font-bold tracking-tight mb-4">WORLDWIDE SHIPPING</h3>
-          <p className="text-sm text-zinc-500 mb-8 break-keep">
-            우리는 전 세계 50개국 이상에 우리의 철학과 제품을 전달합니다. 어디에서나 SIIIIDO를 경험해 보세요.
-          </p>
-          <button className="text-[10px] font-bold tracking-[0.2em] border-b border-black pb-1 hover:opacity-60 transition-opacity uppercase">
-            배송 가능 국가 확인하기
-          </button>
         </div>
       </section>
 
